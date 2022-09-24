@@ -1,36 +1,34 @@
 # > Netease Music
-DOMAIN-SUFFIX,interface.music.163.com,Netease Music
-DOMAIN-SUFFIX,interface1.music.163.com,Netease Music
-DOMAIN-SUFFIX,interface2.music.163.com,Netease Music
-DOMAIN-SUFFIX,interface3.music.163.com,Netease Music
-DOMAIN-SUFFIX,interface4.music.163.com,Netease Music
-DOMAIN-SUFFIX,interface5.music.163.com,Netease Music
-DOMAIN-SUFFIX,apm.music.163.com,Netease Music
-DOMAIN-SUFFIX,apm3.music.163.com,Netease Music
-DOMAIN-SUFFIX,man.netease.com,Netease Music
-DOMAIN-SUFFIX,api.iplay.163.com,Netease Music
-DOMAIN-SUFFIX,ac.dun.163yun.com,Netease Music
-DOMAIN-SUFFIX,mr.da.netease.com,Netease Music
-DOMAIN-SUFFIX,crash.163.com,Netease Music
-DOMAIN-SUFFIX,imap.163.com,Netease Music
-DOMAIN-SUFFIX,music.126.net,Netease Music
-DOMAIN-SUFFIX,music.163.com,Netease Music
-DOMAIN-KEYWORD,netease,Netease Music
-IP-CIDR,59.111.181.60/32,Netease Music
-IP-CIDR,223.252.199.66/32,Netease Music
-IP-CIDR,223.252.199.67/32,Netease Music
-IP-CIDR,59.111.160.195/32,Netease Music
-IP-CIDR,59.111.160.197/32,Netease Music
-IP-CIDR,59.111.181.35/32,Netease Music
-IP-CIDR,59.111.181.38/32,Netease Music
-IP-CIDR,39.105.63.80/32,Netease Music
-IP-CIDR,47.100.127.239/32,Netease Music
-IP-CIDR,118.24.63.156/32,Netease Music
-IP-CIDR,193.112.159.225/32,Netease Music
-IP-CIDR,59.111.181.155/32,Netease Music
-IP-CIDR,115.236.118.33/32,Netease Music
-IP-CIDR,59.111.128.0/17,Netease Music
-IP-CIDR,115.236.112.0/20,Netease Music
-IP-CIDR,223.252.192.0/19,Netease Music
-IP-CIDR,101.71.154.241/32,Netease Music
+# Shadowrocket: 2022-06-07 
+[General]
+dns-server = system,114.114.114.114,112.124.47.27,8.8.8.8,8.8.4.4
+bypass-system = true
+ipv6 = false
+update-url = https://s3-us-east-1.ossfiles.com/anmugzh/PeiZhi/AnmuUnblockMusic.conf
+[filter_local]
+HOST-SUFFIX,music.163.com,NETEASE MUSIC
+HOST-SUFFIX,interface.music.163.com,NETEASE MUSIC
+HOST-SUFFIX,interface3.music.163.com,NETEASE MUSIC
+HOST-SUFFIX,apm.music.163.com,NETEASE MUSIC
+HOST-SUFFIX,apm3.music.163.com,NETEASE MUSIC
+IP-CIDR,59.111.181.38/32,NETEASE MUSIC
+IP-CIDR,59.111.181.60/32,NETEASE MUSIC
+IP-CIDR,223.252.199.66/32,NETEASE MUSIC
+IP-CIDR,223.252.199.67/32,NETEASE MUSIC
+IP-CIDR,59.111.160.195/32,NETEASE MUSIC
+IP-CIDR,59.111.160.197/32,NETEASE MUSIC
+IP-CIDR,47.100.127.239/32,NETEASE MUSIC
+IP-CIDR,118.24.63.156/32,NETEASE MUSIC
+IP-CIDR,193.112.159.225/32,NETEASE MUSIC
+IP-CIDR,39.105.63.80/32,NETEASE MUSIC
+IP-CIDR,59.111.181.35/32,NETEASE MUSIC
+IP-CIDR,115.236.118.33/32,NETEASE MUSIC
+IP-CIDR,115.236.121.1/32,NETEASE MUSIC
+IP-CIDR,112.13.122.1/32,NETEASE MUSIC
+IP-CIDR,112.13.119.17/32,NETEASE MUSIC
+IP-CIDR,103.126.92.132/32,NETEASE MUSIC
+IP-CIDR,103.126.92.13/32,NETEASE MUSIC
+IP-CIDR,45.254.48.1/32,NETEASE MUSIC
+
+
 
