@@ -1,5 +1,5 @@
 # > Netease Music
-# Shadowrocket: 2022-06-07 
+# 根据按木大佬的小火箭规则修改
 [General]
 dns-server = system,114.114.114.114,112.124.47.27,8.8.8.8,8.8.4.4
 bypass-system = true
