@@ -1,3 +1,11 @@
+/****************
+[rewrite_local]
+^https:\/\/cat\-match\-static\.easygame2021\.com\/maps.*? url script-response-body https://raw.githubusercontent.com/1829018/quantuanlt-x-root/main/Yang
+
+[mitm]
+hostname = cat-match-static.easygame2021.com, cat-match.easygame2021.com
+
+
 var body=$response.body;
 
 body = body.replace(/type\":\d+/g,'type" : 3');
