@@ -4,7 +4,7 @@
 
 [mitm]
 hostname = cat-match-static.easygame2021.com, cat-match.easygame2021.com
-
+*******************/
 
 var body=$response.body;
 
