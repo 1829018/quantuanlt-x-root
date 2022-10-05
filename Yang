@@ -1,4 +1,4 @@
 var body=$response.body;
 
-body = body.replace(/type\":\d+/g, 'type" : 3');
+body = body.replace(/type\":\d+/g,'type" : 3');
 $done(body);
