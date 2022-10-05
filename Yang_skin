@@ -1,4 +1,7 @@
 var body=$response.body;
 
-body=body.replace(/unlock\":\w+/g,'unlock":true');
+body=body.replace(/unlock": false/g,'unlock": true');
 $done(body);
+
+
+
