@@ -1,10 +1,10 @@
-var body = $response.body; //把响应体设为body
-var obj = JSON.parse(body)；//将JSON形式的body转变成对象处理
+var body = $response.body;
+var obj = JSON.parse(body);
 
 obj.data.win_count = 545945848978948454156187481254584879847894894548745468545524874147845487848;
 obj.data.topic_count = 4157454684765448945645484524987456115445884854564;
 
 
 
-body = JSON.stringify(obj);//重新打包回json字符串
-$done(body);//结束修改
+body = JSON.stringify(obj);
+$done(body);
