@@ -5,7 +5,7 @@
 *******************************
 
 [rewrite_local]
-https:\/\/cat-match-static\.easygame2021\.com\/datas\/gd_skin_list\.json script-response-body ya.js
+https:\/\/cat-match-static\.easygame2021\.com\/datas\/gd_skin_list\.json script-response-body https://raw.githubusercontent.com/1829018/quantuanlt-x-root/main/ya.js
 
 
 [mitm]
