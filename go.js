@@ -52,7 +52,7 @@
 // ==/UserScript==
 /*
 [rewrite_local]
-* url script-response-body go.js
+.* url script-response-body go.js
 [mitm]
 hostname  = recaptcha.google,captcha.qq.com,alicdn.com,aliyun.com,quark.cn,taobao.com,mall.com,weibo.com,.le.com,iqiyi.com,tudou.com,qq.com,youku.com,sohu.com,pptv.com,twitter.com,facebook.com,instagram.com,tiktok.com,imdb.com,vk.com,mtv.com,56.com,ku6.com,cntv.cn,cctv.cn,mgtv.com,yinyuetai.com,wasu.cn,163.com,1905.com,xunlei.com,funshion.com,youhui*,pornhub.com,youtube.com,bilibili.com,mama.com,zhihu.com,baidu.com
 
