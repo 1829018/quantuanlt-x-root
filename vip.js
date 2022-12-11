@@ -56,7 +56,7 @@
 // ==/UserScript==
 /*
 [rewrite_local]
-^https?://v.qq.com.*?|^https?://m.v.qq.com.*?|^https?://w.mgtv.com.*?|^https?://www.mgtv.com.*?|^https?://m.mgtv.com.*?|^https?://www.bilibili.com.*?|^https?://m.bilibili.com.*?|^https?://www.iqiyi.com.*?|^https?://m.iqiyi.com.*?|^https?://www.iq.com.*?|^https?://v.youku.com.*?|^https?://m.youku.com.*?|^https?://tv.sohu.com.*?|^https?://film.sohu.com.*?|^https?://www.le.com.*?|^https?://video.tudou.com.*?|^https?://v.pptv.com.*?|^https?://vip.pptv.com.*?|^https?://www.wasu.cn.*?|^https?://www.acfun.cn.*?|^https?://vip.1905.com.*?|^https?://www.1905.com.*? url script-response-body https://raw.githubusercontent.com/1829018/quantuanlt-x-root/main/vip.js 
+^https?://v.qq.com.*?|^https?://m.v.qq.com.*?|^https?://w.mgtv.com.*?|^https?://www.mgtv.com.*?|^https?://m.mgtv.com.*?|^https?://www.bilibili.com.*?|^https?://m.bilibili.com.*?|^https?://www.iqiyi.com.*?|^https?://m.iqiyi.com.*?|^https?://www.iq.com.*?|^https?://v.youku.com.*?|^https?://m.youku.com.*?|^https?://tv.sohu.com.*?|^https?://film.sohu.com.*?|^https?://www.le.com.*?|^https?://video.tudou.com.*?|^https?://v.pptv.com.*?|^https?://vip.pptv.com.*?|^https?://www.wasu.cn.*?|^https?://www.acfun.cn.*?|^https?://vip.1905.com.*?|^https?://www.1905.com.*? url script-request-header https://raw.githubusercontent.com/1829018/quantuanlt-x-root/main/vip.js 
 [mitm]
 hostname = v.qq.com,m.v.qq.com,w.mgtv.com,www.mgtv.com,m.mgtv.com,www.bilibili.com,m.bilibili.com,www.iqiyi.com,m.iqiyi.com,www.iq.com,v.youku.com,m.youku.com,tv.sohu.com,film.sohu.com,www.le.com,video.tudou.com,v.pptv.com,vip.pptv.com,www.wasu.cn,www.acfun.cn,vip.1905.com,www.1905.com
 */
