@@ -51,7 +51,7 @@
 // @connect *
 // ==/UserScript==
 /*
-
+[rewrite_local]
 
 
 需要更多功能和建议的话，欢迎跟帖反馈
