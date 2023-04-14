@@ -8,7 +8,7 @@
 *******************************
 %¥
 [rewrite_local]
-^https?:\/\/api\.yikaobang\.com\.cn\/user\/main\/vip|https?:\/\/api\.yikaobang\.com\.cn\/index\.php\/activity\/main\/chapterLock.*? url script-response-body Asd.js
+^https?:\/\/api\.yikaobang\.com\.cn\/user\/main\/vip|https?:\/\/api\.yikaobang\.com\.cn\/index\.php\/activity\/main\/chapterLock.*? url script-response-body https://raw.githubusercontent.com/1829018/quantuanlt-x-root/main/%E5%8C%BB%E8%80%83%E5%B8%AE.js
 
 
 [mitm]
