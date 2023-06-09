@@ -1,3 +1,3 @@
 hostname = *.bing.com
 
-(?<=cc\=)CN 302 JP
+(?<=cc\=)CN url 302 JP
